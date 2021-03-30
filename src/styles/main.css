@@ -1,0 +1,144 @@
+.main {
+  width: 95%;
+  margin: auto;
+}
+
+.start-cover {
+  height: 95vh;
+  background-color: cadetblue;
+}
+
+.start-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.main-text h1 {
+  font-size: 70px;
+  font-weight: 900;
+  margin: 15px 0;
+}
+
+.main-text h3 {
+  color: #282d2b;
+  font-weight: 600;
+}
+
+.shop-1 {
+  width: 95px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.shop-2 {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.shop-btn {
+  margin-top: 30px;
+}
+
+.featured-container {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  margin: 100px 0;
+}
+
+.img-1 {
+  width: 50%;
+  height: 100%;
+  margin-right: 15px;
+  background-color: cyan;
+  position: relative;
+}
+
+.img-1 img,
+.img-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-1 h2 {
+  position: absolute;
+  bottom: 80px;
+  padding: 0 50px;
+}
+
+.img-1 button {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  margin: 0 50px;
+  width: 93px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.img-2 {
+  width: 50%;
+  height: 100%;
+  background-color: cyan;
+  position: relative;
+}
+
+.img-2 h2 {
+  position: absolute;
+  bottom: 80px;
+  padding: 0 50px;
+}
+
+.img-2 button {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  margin: 0 50px;
+  width: 137px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 767.98px) {
+  .featured-container {
+    display: block;
+    height: auto;
+  }
+
+  .img-1,
+  .img-2 {
+    width: 100%;
+  }
+}

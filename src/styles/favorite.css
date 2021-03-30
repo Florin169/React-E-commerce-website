@@ -1,0 +1,41 @@
+.favorite {
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.favorite-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.fav-image {
+  display: flex;
+  align-items: center;
+}
+
+.fav-image img {
+  width: 164px;
+  height: 164px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.favorite-list button {
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.favorite-list button:hover {
+  background-color: red;
+}
